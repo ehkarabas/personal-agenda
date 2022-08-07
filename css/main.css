@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* Navbar */
+
+nav#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 70px;
+}
+
+div#main {
+    margin-top: 70px;
+}
+
+nav#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav#navbar ul li a {
+    padding: 0 0.5vw;
+}
+
+nav#navbar ul li a:hover {
+    background: #89abe3ff;
+    border-radius: 5px;
+}
+
+/* Home Section */
+
+section#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+section#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+section#home div.name h2.heading-big {
+    margin-bottom: 0.75rem;
+}
+
+section#home div.name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* Work In Progress */
+
+section#wip {
+    color: #fff;
+    padding: 1rem;
+    scroll-margin-top: 70px;
+}
+
+section#wip div.items {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section#wip div.items article.item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+section#wip div.items article.item:hover {
+    color: #adefd1ff;
+}
+
+/* Agenda */
+
+section#agenda {
+    color: #333;
+    padding: 1rem;
+    scroll-margin-top: 70px;
+}
+
+section#agenda div.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section#agenda div.agenda-items {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+section#agenda div.agenda-items div.agenda-item {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    
+}
+
+section#agenda div.agenda-items div.agenda-item div.agenda-item-image {
+    margin-right: 0.5rem;
+    width: 33%;
+    position: relative;
+}
+
+section#agenda div.agenda-items div.agenda-item div.agenda-item-info {
+    width: 66%;
+}
+
+section#agenda div.agenda-items div.agenda-item div.agenda-item-image img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+section#agenda div.agenda-items div.agenda-item div.agenda-item-image span{
+    background-color: #e94b3cff;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+section#agenda div.agenda-items div.agenda-item div.agenda-item-info div.title {
+    font-weight: 700;
+}
+
+section#agenda div.agenda-items div.agenda-item div.agenda-item-info div.collaborators, div.date {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+/* Contact */
+
+footer#contact {
+    color: #fff;
+    padding: 1rem;
+}
+
+footer#contact div.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer#contact div.contact-form div.form-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer#contact div.contact-form div.form-top div.form-name input.form-control {
+    width: 95%;
+}
+
+.form-control {
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+
+footer#contact div.contact-form ul {
+    margin-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+}
+
+footer#contact div.contact-form ul li a {
+    padding: 1rem;
+}
+
+footer#contact div.contact-form ul li:hover {
+    opacity: 0.8;
+}

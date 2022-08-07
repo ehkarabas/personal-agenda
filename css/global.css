@@ -1,0 +1,91 @@
+/* Classes that are frequently used are stored here. */
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* Background colors that are frequently used are stored here. */
+
+.bg-electric-blue-lemonade {
+    background-color: #0063b2ff;
+}
+
+.bg-skyblue {
+    background-color: #89abe3ff;
+}
+
+/* Common container structure defined here. */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Buttons that are frequently used are stored here. */
+
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 2.5rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    background-color: #89abe3ff;
+}
+
+.btn-primary:hover {
+    color: #0063b2ff;
+    background-color: #fff;
+    border: 0.5px solid #0063b2ff;
+}
+
+.btn-dark {
+    background-color: #333;
+}
+
+.btn-dark:hover {
+    color: #333;
+    background-color: #fff;
+    border: 0.5px solid #333;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+/* Description texts that are frequntly used are stored here. */
+
+.desc {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.8;
+}
+
+/* Form elements that are frequently used are stored here. */
+
+.form-group {
+    padding: 0.25rem 0;
+    flex-grow: 1;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+}

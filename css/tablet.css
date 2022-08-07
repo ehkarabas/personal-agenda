@@ -1,0 +1,8 @@
+/* Agenda */
+section#agenda div.agenda-items {
+    flex-direction: column;
+}
+
+section#agenda div.agenda-items div.agenda-item {
+    width: 100%;
+}

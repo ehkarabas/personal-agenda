@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Exercise">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+        <!-- CSS File for Tablets Only -->
+        <link rel="stylesheet" media="(max-width:820px)" href="css/tablet.css">
+        <!-- CSS File for Mobiles Only -->
+        <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Fonts: -->
+        <!-- font-family: 'Open Sans', sans-serif; -->
+        <!-- font-family: 'Lobster', cursive; -->
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- TITLE -->
+    <title>Personal Agenda Exercise</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class = "bg-electric-blue-lemonade">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small"> Huseyin Karabas </h1>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house fa-lg"></i></a></li>
+                    <li><a href="#agenda" class="anchor"><i class="fa-solid fa-code fa-lg"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/huseyinkarabas/"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                    <li><a href="https://github.com/ehkarabas"><i class="fa-brands fa-github fa-lg"></i></a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-square-phone fa-lg"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main">
+        <!-- INTRO -->
+        <section id="home">
+            <img src="./images/me.png" alt="Huseyin Karabas">
+            <div class="name text-center">
+                <h2 class="heading-big"> Huseyin Karabas </h2>
+                <p> Developer | Architect </p>
+            </div>
+            <a href="#wip" class="btn btn-primary"> Go to WIP </a>
+        </section>
+
+        <!-- WIP -->
+        <section id="wip" class="bg-electric-blue-lemonade">
+            <h3 class="text-center heading-medium"> Work In Progress </h3>
+            <div class="items">
+                <article class="item">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Task 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, commodi.</p>
+                </article>
+                <article class="item">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Task 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, commodi.</p>
+                </article>
+                <article class="item">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Task 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, commodi.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- AGENDA -->
+        <section id="agenda">
+            <h3 class="text-center heading-medium"> Agenda </h3>
+            <div class="container">
+                <div class="agenda-items">
+                    <!-- Log 1 -->
+                    <div class="agenda-item">
+                        <div class="agenda-item-image">
+                            <img src="./images/htmlcode1.jpg" alt="An HTML Flow Sample">
+                            <span>Project 1</span>
+                        </div>
+                        <div class="agenda-item-info">
+                            <div class="desc title">Finalization of index.html</div>
+                            <div class="desc description">Created main structure regarding to customer demands.</div>
+                            <div class="desc collaborators">Devs : Huseyin Karabas</div>
+                            <div class="desc date">12.20.2022</div>
+                        </div>
+                    </div>
+                    <!-- Log 2 -->
+                    <div class="agenda-item">
+                        <div class="agenda-item-image">
+                            <img src="./images/csscode1.jpg" alt="A CSS Flow Sample">
+                            <span>Project 1</span>
+                        </div>
+                        <div class="agenda-item-info">
+                            <div class="desc title">Finalization of style.css</div>
+                            <div class="desc description">Completed all stylizations which are decided.</div>
+                            <div class="desc collaborators">Devs : Jane Doe</div>
+                            <div class="desc date">12.24.2022</div>
+                        </div>
+                    </div>
+                    <!-- Log 3 -->
+                    <div class="agenda-item">
+                        <div class="agenda-item-image">
+                            <img src="./images/htmlcode2.jpg" alt="An HTML Flow Sample">
+                            <span>Project 1</span>
+                        </div>
+                        <div class="agenda-item-info">
+                            <div class="desc title">Testing and Debugging of Project 1</div>
+                            <div class="desc description">Fixed some positioning issues and done some visual changes.</div>
+                            <div class="desc collaborators">Devs : John Doe, Joe Doe</div>
+                            <div class="desc date">01.10.2023</div>
+                        </div>
+                    </div>
+                    <!-- Log 4 -->
+                    <div class="agenda-item">
+                        <div class="agenda-item-image">
+                            <img src="./images/scrum1.jpg" alt="Photo of a Scrum Meeting">
+                            <span>Sprint Meeting</span>
+                        </div>
+                        <div class="agenda-item-info">
+                            <div class="desc title">5th Sprint Meeting was held.</div>
+                            <div class="desc description">Stories from backlog added to sprint calendar for Project 2.</div>
+                            <div class="desc collaborators">Scrum Master & Scrum Team</div>
+                            <div class="desc date">01.13.2023</div>
+                        </div>
+                    </div>
+                    <!-- Log 5 -->
+                    <div class="agenda-item">
+                        <div class="agenda-item-image">
+                            <img src="./images/ccode1.jpg" alt="A C++ Flow Sample">
+                            <span>Project 2</span>
+                        </div>
+                        <div class="agenda-item-info">
+                            <div class="desc title">Some of the story work was half done.</div>
+                            <div class="desc description">Some tasks with high priority in the sprint backlog have been completed.</div>
+                            <div class="desc collaborators">Devs : Huseyin Karabas, Jane Doe, John Doe</div>
+                            <div class="desc date">01.21.2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="contact" class="bg-electric-blue-lemonade">
+            <div class="contact-form">
+                <form>
+                    <h4 class="text-center heading-medium"> Contact Me </h4>
+                    <div class="form-top">
+                        <div class="form-group form-name">
+                            <label for="name"> Name :</label>
+                            <input 
+                                type="text" 
+                                class="form-control" 
+                                name="name" 
+                                id="name" 
+                                placeholder="Your name here..."
+                            >
+                        </div>
+                        <div class="form-group form-email">
+                            <label for="email"> E-mail :</label>
+                            <input 
+                                type="text" 
+                                class="form-control" 
+                                name="email" 
+                                id="email" 
+                                placeholder="Your e-mail here..."
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"> Message :</label>
+                        <textarea 
+                            name="message" 
+                            id="message" 
+                            class="form-control" 
+                            rows="5"
+                            placeholder="Your message here..."
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block"> Send </button>
+                </form>
+                <ul>
+                    <li><a href="https://facebook.com"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                    <li><a href="https://instagram.com"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                    <li><a href="https://youtube.com"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+                    <li><a href="https://discord.com"><i class="fa-brands fa-discord fa-lg"></i></a></li>
+                    <li><a href="https://skype.com"><i class="fa-brands fa-skype fa-lg"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    
+    
+</body>
+
+</html>
